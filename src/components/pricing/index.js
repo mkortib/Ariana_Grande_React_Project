@@ -13,9 +13,9 @@ export default class Pricing extends Component {
 			'Dignissimos officia aut nam incidunt minus maxime officiis id numquam. Neque voluptatibus doloribus quae, harum nihil sequi!'
 		],
 		linkto: [
-			'http://sales/b',
-			'http://sales/c',
-			'http://sales/d'
+			'https://www.viagogo.com/ww/Concert-Tickets/Rock-and-Pop/Ariana-Grande-Tickets?AffiliateID=49&adposition=1t1&PCID=PSROWGOOCONARIAN70D59F57A&AdID=344304829388&MetroRegionID=&psc=%2c&ps=%2c&ps_p=0&ps_c=1592575147&ps_ag=60472507139&ps_tg=kwd-296667379833&ps_ad=344304829388&ps_adp=1t1&ps_fi=%2c&ps_li=%2c&ps_lp=21580&ps_n=g&ps_d=c&gclid=Cj0KCQjwxMjnBRCtARIsAGwWnBP-KYXNHnhCPPkHkZ6gmkTq4qJFzJlaAuontwu1FXRFPFeKM5PBfFcaAiOqEALw_wcB',
+			'https://www.viagogo.com/ww/Concert-Tickets/Rock-and-Pop/Ariana-Grande-Tickets?AffiliateID=49&adposition=1t1&PCID=PSROWGOOCONARIAN70D59F57A&AdID=344304829388&MetroRegionID=&psc=%2c&ps=%2c&ps_p=0&ps_c=1592575147&ps_ag=60472507139&ps_tg=kwd-296667379833&ps_ad=344304829388&ps_adp=1t1&ps_fi=%2c&ps_li=%2c&ps_lp=21580&ps_n=g&ps_d=c&gclid=Cj0KCQjwxMjnBRCtARIsAGwWnBP-KYXNHnhCPPkHkZ6gmkTq4qJFzJlaAuontwu1FXRFPFeKM5PBfFcaAiOqEALw_wcB',
+			'https://www.viagogo.com/ww/Concert-Tickets/Rock-and-Pop/Ariana-Grande-Tickets?AffiliateID=49&adposition=1t1&PCID=PSROWGOOCONARIAN70D59F57A&AdID=344304829388&MetroRegionID=&psc=%2c&ps=%2c&ps_p=0&ps_c=1592575147&ps_ag=60472507139&ps_tg=kwd-296667379833&ps_ad=344304829388&ps_adp=1t1&ps_fi=%2c&ps_li=%2c&ps_lp=21580&ps_n=g&ps_d=c&gclid=Cj0KCQjwxMjnBRCtARIsAGwWnBP-KYXNHnhCPPkHkZ6gmkTq4qJFzJlaAuontwu1FXRFPFeKM5PBfFcaAiOqEALw_wcB'
 		],
 		delay: [500, 0, 500]
 	}

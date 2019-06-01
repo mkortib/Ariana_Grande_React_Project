@@ -18,7 +18,6 @@ export default function Carousel() {
 		<div
 			className="carrousel_wrapper"
 			style={{
-				background: 'blue',
 				overflow: 'hidden',
 				height: `${window.innerHeight}px`
 			}}

@@ -30,7 +30,8 @@ body {
 }
 
 .center_wrapper {
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
     margin:0 auto;
 }
 
@@ -83,8 +84,22 @@ footer .footer_copyright {
 }
 
 .carrousel_image {
-    
+    position: relative;
     background-size: cover !important;
+    background-position: center!important;
+}
+
+.carrousel_image::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .3;
 }
 
 .artist_name {
@@ -359,4 +374,146 @@ footer .footer_copyright {
     font-size: 29px;
     padding: 15px 20px;
     text-align: center;
+}
+
+
+/*====================
+        MEDIA QUERIES
+======================*/
+
+@media screen and (max-width: 992px) {
+
+    .center_wrapper {
+        max-width: 690px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .center_wrapper {
+        max-width: 300px;
+    }
+
+    .countdown_wrapper .countdown_time {
+        font-size: 29px;
+        margin-right: 15px;
+        padding-right: 20px;
+    }
+
+    .countdown_wrapper .countdown_top {
+        font-size: 16px;
+    }
+
+    .countdown_wrapper .countdown_tag {
+        font-size: 14px;
+    }
+
+    .vn_wrapper {
+        flex-direction: column;
+    } 
+
+    .discount_wrapper {
+        flex-direction: column;
+        padding: 30px 0 70px;
+    }
+
+    .pricing_wrapper {
+        padding: 30px 0;
+        flex-direction: column;
+    }
+
+    .artist_name {
+        width: 250px;
+        height: 150px;
+    }
+
+    .artist_name .wrapper {
+        height: 111px;
+        font-size: 33px;
+        padding: 22px 29px 0px 19px;
+    }
+
+    .vn_item .vn_outer {
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .vn_item {
+        width: 100%;
+        margin-bottom: 120px;
+    }
+
+    .vn_item .vn_icon_square {
+        left: 84px;
+    }
+
+    .vn_item .vn_icon {
+        left: 108px;
+    }
+
+    .vn_wrapper {
+        padding: 130px 0 0px;
+    }
+
+    .vn_item .vn_title {
+        font-size: 24px;
+    }
+
+    .vn_item .vn_desc {
+        font-size: 24px;
+        margin-bottom: 44px;
+    }
+
+    .highlight_wrapper h2 {
+        font-size: 40px;
+        margin: 30px 0 20px;
+    }
+
+    .highlight_wrapper .highlight_description {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    .discount_wrapper .discount_porcentage span:nth-child(1) {
+        font-size: 110px;
+    }
+
+    .discount_wrapper .discount_porcentage span:nth-child(2) {
+        font-size: 40px;
+    }
+
+    .pricing_wrapper .pricing_item {
+        width: 100%;
+    }
+
+    .pricing_section {
+        padding: 40px 0;
+    }
+
+    .pricing_section h2 {
+        font-size: 40px;
+    }
+
+    .location_tag div {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 40px;
+        padding: 35px 0;
+    }
+
+    footer .footer_copyright {
+        font-size: 14px;
+    }
+
+    header .header_logo_venue {
+        font-size: 35px;
+    }
+
+    header .header_logo_title {
+        font-size: 16px;
+    }
+
 }
